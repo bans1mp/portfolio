@@ -1,0 +1,15 @@
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1160px) {
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px ;
+    }
+}

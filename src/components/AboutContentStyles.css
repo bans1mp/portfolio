@@ -1,0 +1,10 @@
+.info-container{
+    position: relative;
+    top: 75vh ;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+}

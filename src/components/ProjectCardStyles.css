@@ -1,0 +1,50 @@
+.card {
+    height: 400px ;
+    width: 300px;
+    background-color: #1c242e;
+    opacity: 1;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px #45A29E;
+    transition: 0.1s;
+    border: 2px solid rgba(255,255,255,0.4);
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    padding-top: .5rem ;
+    padding-bottom: .2rem;
+    /* border-bottom: 1px solid white; */
+    background-color: rgba(23, 35, 42,0.5);
+}
+
+.card p {
+    font-size: 1rem;
+    padding-bottom: .7rem ;
+    border-bottom: 1px solid white;
+    background-color: rgba(23, 35, 42,0.5);
+
+}
+
+.img-cnt {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.card:hover {
+    box-shadow: 0px 0px 25px 1px #45A29E;
+    transition: 0.1s;
+    transform: translateY(-10px);
+}
+
+.card-btn {
+    position: relative;
+    top: 40px;
+    background-color: rgba(0,0,0,.3);
+    
+}
